@@ -37,6 +37,7 @@ class BinPackingAgent:
     
     def run(self, user_input: str) -> str:
         """Run the agent with user input"""
+        print(f"Running agent with input: {user_input}")
         result = Runner.run_sync(self.agent, user_input)
         return result.final_output
 

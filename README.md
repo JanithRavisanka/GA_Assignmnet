@@ -67,7 +67,6 @@ GA_Assignment/
     ├── 📄 __init__.py
     ├── 📄 agent_system.py              # Main agent orchestrator
     ├── 📄 agent_cli.py                 # Command-line interface
-    ├── 📄 demo.py                      # Demo script
     ├── 📄 simple_simulation.py         # Standalone simulation
     ├── 📄 requirements.txt             # Python dependencies
     ├── 📄 .env.example                 # Environment template
@@ -205,8 +204,6 @@ python simple_simulation.py
 # Interactive CLI
 python agent_cli.py
 
-# Demo mode
-python demo.py
 ```
 
 ## 🔬 Component Documentation
